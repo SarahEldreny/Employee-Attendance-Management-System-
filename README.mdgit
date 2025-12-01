@@ -1,4 +1,4 @@
-1. Project Overview and Implementation Details
+# 1. Project Overview and Implementation Details
 
 The project successfully implements a Singly Linked List Class in C++. The list is structured to handle nodes containing an int key (Employee ID) and a char data (Attendance Status code).
 
@@ -8,7 +8,7 @@ The chosen application scenario is an Employee Attendance Management System. Thi
 
     Data Manipulation: The search() and updateData() functions allow for locating specific employees (by ID) and correcting their attendance status (e.g., changing 'Late' to 'Present').
 
-2. File Structure
+# 2. File Structure
 
 The solution adheres to the modular design principles:
 
@@ -17,3 +17,4 @@ The solution adheres to the modular design principles:
     List.cpp: Contains the implementation of all Linked List methods (including traversal, insertion, deletion, and sorting functions like selectionSort and insertionSort which were part of the initial class structure).
 
     mainList.cpp: The application file containing the main() function, which runs the Attendance System scenario and demonstrates the usage of the modular List class.
+
