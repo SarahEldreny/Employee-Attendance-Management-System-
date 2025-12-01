@@ -1,1 +1,19 @@
-"# Employee-Attendance-Management-System-"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin https://github.com/SarahEldreny/Employee-Attendance-Management-System-.gitgit push -u origin main
+1. Project Overview and Implementation Details
+
+The project successfully implements a Singly Linked List Class in C++. The list is structured to handle nodes containing an int key (Employee ID) and a char data (Attendance Status code).
+
+The chosen application scenario is an Employee Attendance Management System. This scenario effectively demonstrates the core functionalities of the Linked List in a practical, real-world context:
+
+    Chronological Ordering (FIFO): The use of the insertEnd() function simulates employees checking in sequentially, preserving the order of arrival.
+
+    Data Manipulation: The search() and updateData() functions allow for locating specific employees (by ID) and correcting their attendance status (e.g., changing 'Late' to 'Present').
+
+2. File Structure
+
+The solution adheres to the modular design principles:
+
+    List.h: Contains the class definition, node structure, and function prototypes.
+
+    List.cpp: Contains the implementation of all Linked List methods (including traversal, insertion, deletion, and sorting functions like selectionSort and insertionSort which were part of the initial class structure).
+
+    mainList.cpp: The application file containing the main() function, which runs the Attendance System scenario and demonstrates the usage of the modular List class.
